@@ -3,7 +3,7 @@ use turtle::Turtle;
 fn main() {
     let mut turtle = Turtle::new();
 
-    for i in 0usize..10 {
+    for i in 0usize..20 {
         turtle.forward(30.0);
 
         // Returns either None, or Some(remainder)
